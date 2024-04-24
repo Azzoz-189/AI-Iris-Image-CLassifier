@@ -25,7 +25,7 @@ def load_checkpoint(checkpoint_path):
 
 def process_image(image_path):
     ''' Scales, crops, and normalizes a PIL image for a PyTorch model,
-        returns an Numpy array
+        and returns an Numpy array
     '''
     
     # TODO: Process a PIL image for use in a PyTorch model
